@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.main {
+    display: grid;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+}
+
+div.main * {
+    margin-bottom: .2em;
+}
+
+div.main div.logo {
+    width: 351px;
+    height: 113px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.main div.search {
+    background-color: #EEEEEE;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 35em;
+    display: flex;
+    flex-direction: column;
+}
+
+div.main div.search * {
+    margin-bottom: .2em;
+}
+
+div.main div.search p {
+    text-indent: 2.5em;
+}
+
+div.main div.search input {
+    display: block;
+    margin: 0 auto .1em;
+    width: 100%;
+}
+
+div.main div.search div.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+div.main div.search div.buttons button {
+    margin: 0 .2em;
+    padding: 1px 6px;
+}
+
+div.main div.container {
+    display: flex;
+    justify-content: justify;
+}
+
+div.main div.container * {
+    padding: 0 1em;
+    margin: .1em;
+}
+
+div.main div.container div.special-searches {
+    background-color: #7EE5DA;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.main div.container div.special-searches a {
+    display: block;
+}
+
+div.main div.container div.links {
+    background-color: #70CCC2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+}
+
+div.main div.container div.mail {
+    background-color: #62B3AA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+div.main div.container div.mail p {
+    text-indent: 1em;
+}
+
+div.main div.container div.mail div {
+    display: flex;
+}
+
+div.main p.footer {
+    margin-top: .5em;
+    text-align: center;
+    font-size: 12px;
+}
